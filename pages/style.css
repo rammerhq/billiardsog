@@ -1,0 +1,366 @@
+* {
+margin:0px;
+ padding:0px;
+ font-family: Calibri, Arial; 
+}
+
+#header {
+	width:100%;
+	height:100px;
+	border-bottom:3px solid black;
+	background:#279da1;	
+}
+
+.drzac {
+	margin:0px auto; 
+	width:1000px;
+}
+
+#blok1 {
+	width:200px;
+	float:left;
+	height:100px;
+}
+
+#blok1 a img {
+	margin-top:10px;
+	margin-left:5px;
+}
+
+#blok2 {
+	width:780px;
+	height:100px;
+	float:right;
+}
+
+#blok2 img
+{
+	padding-top:10px;
+	padding-left:130px;
+}
+
+.cistac {
+	clear:both;
+}
+
+#menu {
+	width:100%;
+	height:53px;
+	background:#279da1;
+}
+
+#menu1 {
+	height:50px;
+	width:807px;
+	float:left;
+	text-align:center;
+	border-left:3px solid black;
+	border-bottom:3px solid black;
+	border-radius:10px 0px 0px 0px;
+	background:white;
+}
+
+#menu1 ul {
+	list-style:none;
+	text-transform:uppercase;
+	padding-top:13px;
+}
+
+#menu1 ul li {
+	display:inline;
+	padding-left:17px;
+	padding-right:25px;
+}
+
+#menu1 ul li a {
+	text-decoration:none;
+	letter-spacing:3px;
+	font-weight:bold;
+}
+
+#search {
+	width:187px;
+	float:right;
+	height:50px;
+	border-right:3px solid black;
+	border-bottom:3px solid black;
+	border-radius:0px 10px 0px 0px;
+	background:white;
+}
+
+#search form {
+	height:50px;
+	display:flex;
+}
+
+#searchtext {
+	width: 140px;
+	height:20px;
+	margin-top:15px;
+	margin-left:5px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color:#e1e6ef;
+}
+
+#searchbutton {
+	width:30px;
+	height:30px;
+	margin-top:10px;
+	background:url('../pictures/searchbutton.png');
+	margin-left:3px;
+	background-color:#e1e6ef;	
+}
+
+#main {
+	background:url('../pictures/bg.jpg') repeat-x;
+	width:100%;
+	height:700px;
+}
+
+#main1 {	
+	height:700px;
+	float:left;
+	width:808px;
+	border-right:3px solid #000;
+	border-left:3px solid black;
+	border-radius:0px 0px 0px 10px;
+	background:white;
+}
+
+#pasus {
+	width:798px;
+	height:200px;
+	text-align:center;
+	margin:10px auto;
+}
+
+.pasustekst a {
+	text-decoration:none;
+	color:black;
+}
+
+.games {
+	width:808px;
+	height:250px;
+	margin-top:10px;
+}
+
+.gameimage {
+	box-shadow: 15px 15px 10px #888;
+	float:left;
+	width:356px;
+	height:200px;
+	margin-left:10px;
+}
+
+.gameimage img {
+	border-radius: 10px;
+	border:3px solid #279da1;
+}
+
+.pasus2 {
+	float:right;
+	width:420px;
+	height:200px;
+}
+
+.pasus2 h2  {
+	margin-bottom:8px;
+}
+
+#sidebar {
+	float:right;
+	width:183px;
+	height:700px;
+	border-right:3px solid black;
+	border-radius:0px 0px 10px 0px;
+	background:#fff;
+}
+
+#sidebar h2 {
+	text-align:center;
+}
+
+#sidebar ul li {
+	margin-bottom:40px;
+	margin-top:30px;
+	width:183px;
+}
+
+#sidebar ul li a img {
+	width:171px;
+	margin-left:6px;
+}
+
+#sidebar ul {
+	list-style:none;
+}
+
+#sidebar h4 {
+	text-align:center;
+}
+
+#sidebar table {
+	margin:10px auto;
+}
+
+#footer {
+	width:100%;
+	height:100px;
+	border-top:3px solid black;
+}
+
+#menu2 {
+	width:1000px;
+	text-align:center;
+	margin:0 auto;
+	height:65px;
+}
+
+#menu2 ul {
+	list-style:none;
+	text-transform:uppercase;
+	padding-top:15px;
+}
+
+#menu2 ul li {
+	display:inline;
+	margin-left:22px;
+	padding-right:22px;
+}
+
+#menu2 ul li a {
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#copyright {
+	text-align:center;
+	color:#279da1;
+}
+
+.pasus89 {
+	width:808px;
+	height:330px;
+	text-align: center;
+	margin-top:25px;
+}
+
+.picpasus {
+	width:250px;
+	height:330px;
+	float:left;
+}
+
+.picpasus img {
+	margin:0 auto;
+	box-shadow: 15px 15px 10px #888;
+	border-radius: 10px;
+}
+
+.picpasus h4 {
+	font-weight:normal;
+}
+
+.textpasus {
+	width:530px;
+	height:330px;
+	margin-right:20px;
+	float:right;
+}
+
+.textpasus hgroup {
+	background:#b6dede;
+	border-radius: 10px;
+	box-shadow: 15px 15px 10px #888;
+}
+
+.rules89 {
+	text-align:center;
+}
+
+.rules89 iframe {
+	border-radius:10px;
+	border: 3px solid #279da1;
+	box-shadow: 15px 15px 10px #888;
+}
+
+#pasusregister {
+	margin-top:20px;
+	width:808px;
+	height:150px;
+	text-align:center;
+}
+
+#register {
+	height:530px;
+	width:808px;
+	text-align:center;
+	background:#b6dede;
+	border-radius:0px 0px 0px 10px;
+}
+
+#form form table {
+	margin:20px auto;
+	text-align:left;
+	border:3px solid black;
+	border-radius:10px;
+}
+
+#form form table tr td {
+	width:160px;
+}
+
+#gallpic {
+	width:690px;
+	height:600px;
+	margin:0 auto;	
+}
+
+#gallpic h2 {
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:35px;
+}
+
+#gallpic a img {
+	margin:15px 0px 0px 15px;
+	border-radius:10px;
+	border:3px solid #279da1;
+	box-shadow: 15px 15px 10px #888;
+}
+
+#contact {
+	width:600px;
+	height:700px;
+	margin:30px auto;
+}
+#contact h2 {
+	text-align:center;
+}
+#contact h2 a {
+	text-decoration:none;
+}
+#contact img {
+	margin:0 auto;
+}
+#facebook {
+	width:140px;
+	height:140px;
+	margin:0 auto;
+}
+#picofme {
+	width:200px;
+	height:300px;
+	margin:0 auto;
+}
+
+#rss {
+	margin:0 auto;
+	height: 60px;
+	width:60px;
+}
+
+a:link {color:#279da1;}
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+	<channel>
+		<title>Gallery</title>
+		<link>http://sajtovistudenata.ict.edu.rs/57_16/gallery.html</link>
+		<description>Our updated gallery</description>
+		<copyright>Stefan Dimitrijević</copyright>
+		
+	<item>
+		<title>Pictures from the Mosconi Cup</title>
+		<link>http://sajtovistudenata.ict.edu.rs/57_16/gallery.html</link>
+		<description>The most spectacular moments from the Mosconi Cup. Get a look!</description>
+	</item>
+	</channel>
+</rss>

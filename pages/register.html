@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="9-ball, nine ball, 8-ball, eight ball, learn2pool, learn to pool, pool, billiards, register"/>
+		<meta name="description" content="Learn to play 9-ball pool. Become professional!"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" href="../pictures/logoicon.ico"/>
+	</head>
+	<body>
+		<header id="header">
+			<div class="drzac">
+				<div id="blok1">
+					<a href="index.html"><img src="../pictures/logo.png" alt="logo"/></a>
+				</div>
+				<div id="blok2">
+					<img src="../pictures/l2p.png" alt="Learn2Pool"/>
+				</div>
+			</div>
+			<div class="cleaner">     </div>
+		</header>		
+		<nav id="menu">
+			<div class="drzac">
+				<div id="menu1">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="8-ball.html">8 ball</a></li>
+						<li><a href="9-ball.html">9 ball</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="register.html">Register</a></li>
+						<li><a href="contact.html">About Me</a></li>
+					</ul>
+				</div>
+				<div id="search">				
+					<form action="search.php" method="GET">
+						<input type="search" id="searchtext" name="search" placeholder="Search"/>
+						<input type="button" id="searchbutton" name="button"/>
+					</form>
+				</div>
+			</div>
+			<div class="cistac">     </div>
+		</nav>	
+		<div id="main">
+			<div class="drzac">
+				<div id="main1">
+					<div id="pasusregister">
+							<h2>You are just one step away from becoming a champion!<br/><br/>Fill out our Pool School Form to create free account!</h2><br/><h3>Our representative will contact you and direct you about contract making and payment methods.</h3>
+					</div>
+					<div id="register">
+						<h1>Pool School Form</h1><br/>
+						<p>Please fill out the following information and reserve your spot today!</p><br/>
+						<div id="form">
+							<form action="register.php" method="POST">
+							<table>							
+								<tr><td><b>First Name</b>:</td><td><input type="text" id="name" name="name" required/></td></tr>
+								<tr><td><b>Last Name</b>:</td><td><input type="text" id="surname" name="surname" required/></td></tr>
+								<tr><td><b>Email</b>:</td><td><input type="email" id="email" name="email" required/></td></tr>
+								<tr><td><b>Password</b>:</td><td><input type="password" id="password" name="password" required/></td></tr>
+								<tr><td><b>Phone Number</b>:</td><td><input type="number" size="6" id="number" name="number" required/></td></tr>
+								<tr><td rowspan="2"><b>Gender</b>:</td><td><input type="radio" id="male" name="gender" required/> Male</td></tr>
+								<tr><td><input type="radio" id="female" name="gender" required/> Female</td></tr>
+								<tr><td>Preference:</td><td>
+								<select name="preference" size="1">
+									<option value="8ball">8 ball</option>
+									<option value="9ball">9 ball</option>
+								</select>
+								</td></tr>
+								<tr><td>Month Preferred:</td>
+									<td><select name="month" size="1">
+										<option value="1">January</option>
+										<option value="2">February</option>
+										<option value="3">March</option>
+										<option value="4">April</option>
+										<option value="5">May</option>
+										<option value="6">June</option>
+										<option value="7">July</option>
+										<option value="8">August</option>
+										<option value="9">September</option>
+										<option value="10">October</option>
+										<option value="11">November</option>
+										<option value="12">December</option>
+										</select>
+									</td>
+								</tr>
+								<tr><td colspan="2" align="center">Questions and Comments:</td></tr>
+								<tr><td colspan="2" align="center"><textarea id="questions" name="questions" cols="25" rows="3"></textarea></td></tr>
+								<tr>
+									<td align="right"><input type="submit" id="submitform" name="submitform" value="Submit"/></td>
+									<td><input type="reset" id="reset" name="reset" value="Reset"/></td>
+								</tr>
+							</table>
+							</form>
+						</div>	
+					</div>
+				</div>
+				<aside id="sidebar">
+				<h2>Our sponsors:</h2>
+					<ul>
+						<li><a href="https://www.dynamic-billard.de"><img src="../pictures/dynamic.png" alt="Dynamic billiards"/></a></li>
+						<li><a href="http://www.diamondbilliards.com"><img src="../pictures/diamond.png" alt="Diamond billiards"/></a></li>					
+						<li><a href="http://www.predatorcues.com"><img src="../pictures/predator.png" alt="Predator cues"/></a></li>
+						<li><a href="http://www.kamuibrand.com"><img src="../pictures/kamui.png" alt="Kamui tips"/></a></li>
+					</ul>
+					<h4>What's your favourite game:</h4>
+					<form action="survey.php" method="POST">
+						<table>
+							<tr><td><input type="radio" name="survey" id="88ball"/> 8 ball</td></tr>
+							<tr><td><input type="radio" name="survey" id="99ball"/> 9 ball</td></tr>
+							<tr><td><input type="radio" name="survey" id="both"/> Both</td></tr>
+							<tr><td><input type="radio" name="survey" id="other"/> Other</td></tr>
+							<tr><td><input type="submit" name="vote" id="vote" value="Vote"/></td></tr>
+						</table>
+					</form>
+				</aside>
+			</div>
+			<div class="cistac"></div>
+		</div>		
+		<footer id="footer">
+			<div class="drzac">
+				<div id="menu2">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="8_ball.html">8 ball</a></li>
+						<li><a href="9_ball.html">9 ball</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="register.html">Register</a></li>
+						<li><a href="contact.html">About Me</a></li>
+					</ul>
+				</div>
+				<div id="copyright">
+					<h5>&copy; Stefan Dimitrijević</h5>
+				</div>
+			</div>
+		</footer>
+			
